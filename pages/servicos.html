@@ -8,11 +8,12 @@
   <meta name="generator" content="0.98.0">
   <link rel="icon" type="image/png" href="../images/amaury.png">
   <title>Página Web - Amaury Huerb</title>
-  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/features/">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom styles for this template -->
   <link href="features.css" rel="stylesheet">
+  <!--Utilizar este modelo para definir o CSS-->
+  <link href="assets/css/aparence.css" rel="stylesheet" id="bootstrap-css"></style>
 </head>
+
 <body>
 
   <div align="right">
@@ -30,100 +31,126 @@
   </div>
 
   <main>
-    <div class="container px-4 py-5" id="custom-cards">
-      <h2 class="pb-2 border-bottom">Serviços</h2>
-
-      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('programacao.jpg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Programas C# / PHP / PYTHON</h2>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <img src="images/programa.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                  <small>Adicionando link...</small>
-                </li>
-              </ul>
+    <div class="container">
+      <br>
+      <h2 class="pb-2 border-bottom">Área de Desenvolvedor:</h2>
+      <br>
+      <div class="row">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="our-services-wrapper mb-60">
+            <div class="services-inner">
+              <div class="our-services-img">
+                <img src="images/programas.jpg" width="68px" alt="">
+              </div>
+              <div class="our-services-text">
+                <h4>Programas Exemplo:</h4>
+                <a href="https://www.google.com"><img src="images/programacao.jpg" alt="some text" width=200 height=180></a>
+                <p>C# / PHP / JAVA / PYTHON</p>
+                <p>Disponíveis para aprendizado</p>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('mercado.jpg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Drop shipping</h2>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <img src="images/mercado.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                  <small>Adicionando link...</small>
-                </li>
-              </ul>
+    
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="our-services-wrapper mb-60">
+            <div class="services-inner">
+              <div class="our-services-img">
+                <img src="images/sistemas.jpg" width="68px" alt="">
+              </div>
+              <div class="our-services-text">
+                <h4>APLICAÇÕES WEB</h4>
+                          <a href="https://www.google.com"><img src="images/programacao.jpg" alt="some text" width=200 height=180></a>
+                <p>APLICAÇÕES UTILIZANDO API REST</p>
+                <p>Disponível para teste de novos clientes</p>
+              </div>
             </div>
           </div>
         </div>
-
-        <div class="col">
-          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('portifolio.jpg');">
-            <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-              <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Portifólio</h2>
-              <ul class="d-flex list-unstyled mt-auto">
-                <li class="me-auto">
-                  <img src="images/portifolio.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                </li>
-                <li class="d-flex align-items-center me-3">
-                  <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"/></svg>
-                  <small>Adicionando link...</small>
-                </li>
-                </li>
-              </ul>
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+          <div class="our-services-wrapper mb-60">
+            <div class="services-inner">
+              <div class="our-services-img">
+                <img src="images/portifolio.jpg" width="68px" alt="">
+              </div>
+              <div class="our-services-text">
+                <h4>PORTIFÓLIO</h4>
+                        <a href="https://www.google.com"><img src="images/programacao.jpg" alt="some text" width=200 height=180></a>
+                <p>INFORMAÇÕES TÉCNICAS</p>
+                <p>Portifólio em construnção...</p>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
 
+  <!--Ícones baseados em vetores gráficos  - https://icons.getbootstrap.com/-->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
 
-    <div class="container px-4 py-5" id="icon-grid">
-      <h2 class="pb-2 border-bottom">Projetos Desenvolvidos</h2>
+    <symbol id="bi bi-phone" viewBox="0 0 16 16">
+      <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+      <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+    </symbol>
 
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
-          <div>
-            <h4 class="fw-bold mb-0">Automação Industrial</h4>
-            <p>Ajustando....</p>
-          </div>
+    <symbol id="collection" viewBox="0 0 16 16">
+      <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm1.5.5A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5h-13z"/>
+    </symbol>
+
+
+    <symbol id="cpu-fill" viewBox="0 0 16 16">
+      <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+      <path d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5z"/>
+    </symbol>
+
+    <symbol id="gear-fill" viewBox="0 0 16 16">
+      <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+    </symbol>
+
+    <symbol id="tools" viewBox="0 0 16 16">
+      <path d="M1 0L0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.356 3.356a1 1 0 0 0 1.414 0l1.586-1.586a1 1 0 0 0 0-1.414l-3.356-3.356a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3c0-.269-.035-.53-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814L1 0zm9.646 10.646a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708zM3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026L3 11z"/>
+    </symbol>
+  </svg>
+
+
+  <div class="container px-4 py-5" id="hanging-icons">
+    <h2 class="pb-2 border-bottom">Projetos Desenvolvidos:</h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#gear-fill"/></svg>
         </div>
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
-          <div>
-            <h4 class="fw-bold mb-0">Programação de reconhecimento Facial</h4>
-            <p>Ajustando....</p>
-          </div>
+        <div>
+          <h2>Automação</h2>
+          <!--p>...</p-->
+          <!--a href="#" class="btn btn-primary">Acessar</a-->
         </div>
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
-          <div>
-            <h4 class="fw-bold mb-0">Projeto de IA</h4>
-            <p>Ajustando....</p>
-          </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#bi bi-phone"/></svg>
         </div>
-        <div class="col d-flex align-items-start">
-          <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"/></svg>
-          <div>
-            <h4 class="fw-bold mb-0">Automação 4.0</h4>
-            <p>Ajustando....</p>
-          </div>
+        <div>
+          <h2>Programação Mobile</h2>
+          <!--p>...</p-->
+          <!--a href="#" class="btn btn-primary">Acessar</a-->
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square bg-light text-dark d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#tools"/></svg>
+        </div>
+        <div>
+          <h2>Ferrramentas Computacionais</h2>
+          <!--p>...</p-->
+          <!--a href="#" class="btn btn-primary">Acessar</a-->
         </div>
       </div>
     </div>
+  </div>
+    
   </main>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 
